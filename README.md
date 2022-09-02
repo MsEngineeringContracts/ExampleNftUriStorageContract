@@ -1,0 +1,2 @@
+# ExampleNftUriStorageContract
+Create NFT contract
