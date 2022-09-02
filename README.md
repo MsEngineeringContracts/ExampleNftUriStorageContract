@@ -81,7 +81,7 @@ You can deploy through a deployment script or through the test script with the o
 >  name: 'Metadata example',
 >  image: 'https://ipfs.io/ipfs/QmdoNriSckXbb26WXLBRMz9dLPFnYAPV3xj1JR8i4LU24R/metadata_example.png',
 >  attributes: [
->    {
+>    { 
 >      display_type: 'boost_number',
 >      trait_type: 'Number shown as boost',
 >      value: 100
