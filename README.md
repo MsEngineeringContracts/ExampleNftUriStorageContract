@@ -2,6 +2,8 @@
 Create NFT contract
 
 ## Initial Setup
+Potential not necessary modules must be removed soon.
+
 ### Install hardhat-waffle
 
 ~~npm install -g @nomiclabs/hardhat-waffle~~
@@ -16,9 +18,44 @@ Create NFT contract
 
 ### Install hardhat-network-helpers
 
->npm install -g @nomicfoundation/hardhat-network-helpers
+>npm install --save-dev @nomicfoundation/hardhat-network-helpers
+
+### Install openzeppelin contracts
+
+>npm install @openzeppelin/contracts
+
+### Install hardhat gas reporter
+
+>npm install hardhat-gas-reporter
+
+### Install hardhat web3
+
+>npm install hardhat-web3
+
+### Install hardhat deploy
+
+>npm install hardhat-deploy
+
+### Install mocha
+
+>npm install --save-dev mocha
+
+### Install chai
+
+>npm install --save-dev chai
 
 ### Run hardhat init
 
 >npx hardhat init
+
+## Add and edit project files
+### Edit hardhat config file
+...
+
+### Add contract and test deployment script
+
+### Run test script
+
+>npx hardhat test
+
 
