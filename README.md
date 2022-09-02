@@ -46,6 +46,8 @@ Potential not necessary modules must be removed soon.
 
 ### Install
 
+>npm install --save-dev @openzeppelin/hardhat-upgrades 
+
 ### Run hardhat init
 
 >npx hardhat init
