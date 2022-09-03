@@ -143,5 +143,4 @@ contracts/TestMetadata.sol:TestMetadata at 0x05b632939796EdA116D1Ee745ed629A9303
 for verification on the block explorer. Waiting for verification result...
 Successfully verified contract TestMetadata on Etherscan.
 https://testnet.bscscan.com/address/0x05b632939796EdA116D1Ee745ed629A9303A0fBc#code
-PS F:\Workstuff\ProjectGameFiNaticsV1_local\wsContracts_V1> 
 ```
