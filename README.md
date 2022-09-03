@@ -6,56 +6,69 @@ Potential not necessary modules must be removed soon.
 
 ### Install hardhat-waffle
 
-~~```
-npm install -g @nomiclabs/hardhat-waffle
-```~~
-
-
-"--save-dev" is necessary to have local installation
-
 ```
->npm install --save-dev @nomiclabs/hardhat-waffle
+npm install --save-dev @nomiclabs/hardhat-waffle
 ```
 
 ### Install hardhat-ethers
 
->npm install -g @nomiclabs/hardhat-ethers ethers # peer dependencies
+```
+npm install -g @nomiclabs/hardhat-ethers ethers # peer dependencies
+```
 
 ### Install hardhat-network-helpers
 
->npm install --save-dev @nomicfoundation/hardhat-network-helpers
+```
+npm install --save-dev @nomicfoundation/hardhat-network-helpers
+```
 
 ### Install openzeppelin contracts
 
->npm install @openzeppelin/contracts
+```
+npm install @openzeppelin/contracts
+```
 
 ### Install hardhat gas reporter
 
->npm install hardhat-gas-reporter
+```
+npm install hardhat-gas-reporter
+```
 
 ### Install hardhat web3
 
->npm install hardhat-web3
+```
+npm install hardhat-web3
+```
 
 ### Install hardhat deploy
 
->npm install hardhat-deploy
+```
+npm install hardhat-deploy
+```
 
 ### Install mocha
 
->npm install --save-dev mocha
+```
+npm install --save-dev mocha
+```
 
 ### Install chai
 
->npm install --save-dev chai
+```
+npm install --save-dev chai
+```
 
 ### Install
 
->npm install --save-dev @openzeppelin/hardhat-upgrades 
+```
+npm install --save-dev @openzeppelin/hardhat-upgrades 
+```
 
 ### Run hardhat init
 
->npx hardhat init
+```
+npx hardhat init
+```
 
 ## Add and edit project files and test them
 ### Edit hardhat config file
@@ -65,7 +78,9 @@ npm install -g @nomiclabs/hardhat-waffle
 
 ### Run test script
 
->npx hardhat test
+```
+npx hardhat test
+```
 
 ## Deploy on bsc testnet
 ### IMPORTANT: Add your account infos (mnemonic) to the hardhat.config.js!!! 
@@ -74,7 +89,10 @@ Otherwise deployment will be made from random address.
 ### Testnet deploy
 You can deploy through a deployment script or through the test script with the option "network tbsc".
 
->npx hardhat test --network tbsc
+```
+npx hardhat test --network tbsc
+```
+
 >
 >  DeployTestMetadata
 >  
@@ -147,7 +165,11 @@ You can deploy through a deployment script or through the test script with the o
 
 
 ### Verify your contract
->npx hardhat verify --network tbsc 0x05b632939796EdA116D1Ee745ed629A9303A0fBc  
+
+```
+npx hardhat verify --network tbsc 0x05b632939796EdA116D1Ee745ed629A9303A0fBc  
+```
+
 >
 >Compiled 14 Solidity files successfully
 >
