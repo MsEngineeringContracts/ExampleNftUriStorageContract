@@ -6,9 +6,10 @@ Potential not necessary modules must be removed soon.
 
 ### Install hardhat-waffle
 
-```
-~~npm install -g @nomiclabs/hardhat-waffle~~
-```
+~~```
+npm install -g @nomiclabs/hardhat-waffle
+```~~
+
 
 "--save-dev" is necessary to have local installation
 
