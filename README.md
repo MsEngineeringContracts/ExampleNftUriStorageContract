@@ -13,7 +13,7 @@ npm install --save-dev @nomiclabs/hardhat-waffle
 ### Install hardhat-ethers
 
 ```
-npm install -g @nomiclabs/hardhat-ethers ethers # peer dependencies
+npm install --save-dev @nomiclabs/hardhat-ethers ethers # peer dependencies
 ```
 
 ### Install hardhat-network-helpers
@@ -25,25 +25,25 @@ npm install --save-dev @nomicfoundation/hardhat-network-helpers
 ### Install openzeppelin contracts
 
 ```
-npm install @openzeppelin/contracts
+npm install --save-dev @openzeppelin/contracts
 ```
 
 ### Install hardhat gas reporter
 
 ```
-npm install hardhat-gas-reporter
+npm install --save-dev hardhat-gas-reporter
 ```
 
 ### Install hardhat web3
 
 ```
-npm install hardhat-web3
+npm install --save-dev hardhat-web3
 ```
 
 ### Install hardhat deploy
 
 ```
-npm install hardhat-deploy
+npm install --save-dev hardhat-deploy
 ```
 
 ### Install mocha
@@ -62,6 +62,16 @@ npm install --save-dev chai
 
 ```
 npm install --save-dev @openzeppelin/hardhat-upgrades 
+```
+
+### Install dotenv and find-config
+
+```
+npm install --save-dev dotenv
+```
+
+```
+npm install --save-dev find-config
 ```
 
 ### Run hardhat init
